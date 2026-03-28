@@ -22,6 +22,7 @@ Groq API (LLaMA 3.3 70B)
 Clone Repository git clone https://github.com/your-repo/ai-money-mentor.git cd ai-money-mentor
 Install Dependencies npm install
 Run Application npm run dev
+
 🔐 API Key Setup Go to https://console.groq.com Generate API Key Enter key in Settings page Stored in localStorage as: groq_api_key
 
 📂 How It Works Upload financial document (PDF) PDF.js extracts text Groq API analyzes using AI agents JSON response parsed Data visualized via charts & insights
